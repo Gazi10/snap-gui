@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="static/style/main.css">
+    <link rel="stylesheet" href="static/style/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="/">SUIEP</a>
+    
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="/" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="/batch" class="nav-link">Batch Clean-Up</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="/single" class="nav-link">Single Clean-Up</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="/about" class="nav-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container-fluid title-bg">
+        <div class="row">
+            <div class="col p-5">
+                <h1 class="m-0 text-left" id="title">Snapchat UI Element Pruner</h1>
+            </div>
+            <div class="col text-center">
+                <h3 class="p-5">Remove Unwanted Snapchat UI Elements to Recapture Your Moment.</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="custom-shape-divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    
+    <div class="p-3 container-fluid text-center">
+        <h2 class="p-3">About SUIEP</h2>
+        <p>
+            Snapchat User Interface Elements Pruner (SUIEP) is a tool for removing Snapchat UI elements from images.
+            SUIEP uses object detection to identify UI elements in an image, and then inpaints where the identified elements
+            are located in the image with a trained diffusion model.
+        </p>
+        <p>
+            Check out our <a class="link" href="/batch">Batch Clean-Up</a> page to clean-up a batch of images with SUIEP,
+            or personally select the elements you want to remove from your image on our <a class="link" href="/single">Single
+            Clean-Up</a> page.
+        </p>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

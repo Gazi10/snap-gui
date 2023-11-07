@@ -1,0 +1,5 @@
+accelerate
+diffusers
+flask
+transformers
+ultralytics
